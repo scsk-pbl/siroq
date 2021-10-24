@@ -12,6 +12,7 @@ int DetectionColor(int color_sensor){
     int reflect = 0;            //反射光の値
     int color = 0;              //検出色
 
+#if 0
     //カラーセンサで反射光の強さを測定
     reflect = 
     printf("reflect = %d\n", reflect);
@@ -26,6 +27,7 @@ int DetectionColor(int color_sensor){
         //赤
         
     }
+#endif
 
     return color;
 }
